@@ -7,7 +7,7 @@ const App2 = () => {
 
   return (
     <div>
-      {JSON.stringify(response)}
+      {response}
       <button
         onClick={() => {
           //changing components depending on interaction
