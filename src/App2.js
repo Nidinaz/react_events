@@ -71,5 +71,7 @@ const FootballMatches = (props) => {
         console.log("Error: " + e);
       });
   }
+
+  return (<div>{Matches}</div>)
 };
 export default App2;
