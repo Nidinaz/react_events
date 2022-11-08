@@ -25,7 +25,7 @@ const App = () => {
     });
   }
 
-  const {football, cricket, golf} = response
+  const {football} = response
 
   const footballComps = football.map((footballMatch) => {
     return <div>{footballMatch.match}</div>
