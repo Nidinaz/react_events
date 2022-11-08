@@ -10,7 +10,8 @@ const App2 = () => {
       {JSON.stringify(response)}
       <button
         onClick={() => {
-          window.alert("Clicked!")
+          //changing components depending on interaction
+          setResponse('hello world')
 
           // axios
           //   //axios-method
